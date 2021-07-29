@@ -17,7 +17,7 @@ Pytest is a test framework for python that helps to collect tests from a project
 
 **Stensul/conftest.py** - Where the init_driver fixture is located, this fixture sets up the instance of the driver.
 
-**Stensul/test_base.py** - The BaseTest class it's simply a bridge between the init_driver class and Test_Items. Being passed as a parameter, everytime a test on this class is executed, the fixture is called through the BaseTest class.
+**Stensul/test_base.py** - The BaseTest class it's simply a bridge between the init_driver fixture and Test_Items class. Being passed as a parameter, everytime a test on this class is executed, the fixture is called through the BaseTest class.
 
 **Stensul/requirements.txt** - Where all the dependencies to run the tests are located. (symbolic)
 
