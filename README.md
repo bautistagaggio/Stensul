@@ -2,6 +2,7 @@
 Automation tasks for hiring process
 
 **Project Synopsis**
+------------------------------
 
 Pytest is a test framework for python that helps to collect tests from a project, select tests to run and mark them for runtime behavior. This project applies the concept of Page Object Model, which is really useful for reducing code duplication and significantly improves test case maintenance. On this paradigm, web pages are represented as classes, and the various elements on the page are defined as variables on these classes. The various levels of abstraction make it easy for anyone that lacks selenium knowledge to create automated tests.
 
