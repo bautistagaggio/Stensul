@@ -14,7 +14,7 @@ Pytest is a test framework for python that helps to collect tests from a project
 
 **Stensul/config.py** - Hosts the TestData class, which includes all the hardcoded data used on the execution of the tests.
 
-**Stensul/HomePage.py** - The HomePage class it's located in this file, this class wraps up all the web elements locations as static variables, being a tuple that indicates the way to locate (Xpath, Id, Class, etc) them and their reference on the webpage. Besides, the actions that will be perform with these elements are allocated also in this class.
+**Stensul/HomePage.py** - The HomePage class it's located in this file, this class wraps up all the web elements locations as static variables, being a tuple that indicates the way that will be use to locate them (Xpath, Id, Class, etc) and their reference of the correspondent element on the actual webpage. Besides, the actions that will be perform with these elements are allocated also in this class.
 
 **Stensul/conftest.py** - Where the init_driver fixture is located, this fixture sets up the instance of the driver.
 
