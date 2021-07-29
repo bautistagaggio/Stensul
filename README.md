@@ -1,4 +1,4 @@
-# Stensul
+# Company
 Automation tasks for hiring process
 
 **Project Synopsis**
