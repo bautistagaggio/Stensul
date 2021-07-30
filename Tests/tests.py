@@ -3,7 +3,6 @@ from config import TestData
 from test_base import BaseTest
 from homepage import Homepage
 
-
 class Test_Items(BaseTest):
 
     def test_create_item(self):
@@ -30,11 +29,8 @@ class Test_Items(BaseTest):
         homepage.Description_300()
         self.Assert_Create_300()
 
-
     def test_text_existence(self):
         self.Assert_Creators()
-
-    
 
     """
 /**
