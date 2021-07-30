@@ -27,8 +27,6 @@ class Homepage(BasePage):
     Update_item =  (By.XPATH, "//button[@class='btn pull-right btn-primary']")   
     Items_text = "//p[@class='story ng-binding']"
     Delete_Confirmation = "//button[@class='btn btn-primary']"
-
-    
     
     ###############################################   OBJECT SELECTORS   #########################################
 
