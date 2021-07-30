@@ -22,7 +22,7 @@ Pytest is a test framework for python that helps to collect tests from a project
 
 **Stensul/requirements.txt** - Where all the dependencies to run the tests are located. (symbolic)
 
-**Stensul/dockerfile** - First attempt tu build a docker image, in order tu run these tests on a CI / CD pipeline.
+**Stensul/dockerfile** - First attempt to build a docker image, in order tu run these tests on a CI / CD pipeline.
 
 
 
