@@ -2,8 +2,9 @@ from basePage import BasePage
 from config import TestData
 from test_base import BaseTest
 from homepage import Homepage
+import unittest
 
-class Test_Items(BaseTest):
+class Test_Items(BaseTest, unittest.TestCase):
 
     def test_create_item(self):
         homepage = Homepage(self.driver)
