@@ -46,10 +46,7 @@ class Homepage(BasePage):
     
     def Description_300(self):
         self.do_send_keys(self.Text,TestData.Text300)
-        
-
-
-    
+            
     def Confirm_Item(self):
         self.do_click(self.Create_Item)
     
@@ -62,7 +59,6 @@ class Homepage(BasePage):
         self.do_click(self.GetItemDeleteSelector(ItemName))
         self.do_click(self.Delete_Confirmation)
     
-
     def Get_Items_Text(self):
         return self.get_elements_text(self.Items_text)
 
